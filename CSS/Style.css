@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-size: cover;
+}
+
+#category1{
+    border: 5px inset rgb(255, 255, 255);
+    width: 99%;
+    height: 100%;
+}
+
+.grid-container{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    margin-top: -70px;
+    padding-top: 100px;
+    padding-bottom: 71.5px;
+}
+.item
+{
+    color: rgb(255, 0, 0);
+    font-family: Pacifico;
+}   
+
+#header{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(0, 119, 255);
+    margin-top: -5px;
+    /* margin-left: 490px; */
+    width: 100%;
+    background-color: black;
+    font-family: Pacifico;
+}
+
+a{
+    color: rgb(0, 255, 4);
+    font-family: Pacifico;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+#category1 ul{
+    display: flex;
+}
+
+footer{
+    width: 97.89%;
+    height: 30px;
+    background-color: black;
+    padding: 20px;
+    margin-top: -9px;
+}
+
+footer .home{
+    margin-left: -96%;
+    
+}
+
+footer .home a{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px inset rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 1s all;
+}
+
+footer .home a:hover{
+    color: rgb(0, 119, 255);
+    background-color: rgb(1, 0, 51);
+    border: 2px inset rgb(0, 225, 255);
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {background: black;}
+  }
+
+  /* Small devices */
+  @media only screen and (min-width: 600px) {
+    body {background: black;}
+  }
+  
+  /* Medium devices */
+  @media only screen and (min-width: 768px) {
+    body {background: black;}
+  } 
+  
+  /* Large devices */
+  @media only screen and (min-width: 992px) {
+    body {background: black;}
+  } 
+  
+  /* Extra large devices */
+  @media only screen and (min-width: 1200px) {
+    body {background: black;}
+  }
